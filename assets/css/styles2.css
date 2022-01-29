@@ -1,0 +1,39 @@
+.color-nav{
+	background-color: rgb(255, 8, 49);
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+	color:green;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    color: orange;
+}
+
+.cuadrado {
+	background-color: blue;
+	border: 1px solid black;
+
+}
+
+.contenedor_carrusel{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.carousel-item img{
+	height: 40vw;
+}
+
+.otro_estilo_de_texto{
+	color:crimson;
+}
+
+
+@media (max-width: 600px) {
+	.color_mobile_parrafo{
+		color:chartreuse;
+
+	}
+}

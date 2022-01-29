@@ -1,0 +1,35 @@
+.color_black {
+	color:black;
+}
+
+h1 {
+
+	/*Cambiar a la brevedad / solucion temporal*/
+	color:red !important;
+}
+
+h2 {
+	color:green;
+}
+
+#resumen {
+	background-color: green;
+	width: 100%;
+}
+
+.cuadrado {
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	border: 1px solid black;
+}
+
+#cuadrados{
+	display: flex;
+	flex-direction: row;
+	height: 500px;
+	background-color: green;
+	justify-content: space-evenly;
+	align-items: center;
+
+}
